@@ -3,7 +3,7 @@ cask "context-zero" do
   name "context-zero"
   desc "Context-Zero: Reachability-aware context generator for LLMs."
   homepage "https://context-zero.dev"
-  version "0.1.18"
+  version "1.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "context-zero" do
   on_linux do
     on_intel do
       url "https://github.com/astrabyte-tech/context-zero-releases/releases/download/v#{version}/context-zero_#{version}_linux_amd64.tar.gz"
-      sha256 "263c421eef58b180f499920e438d2e5528cf823e8c9d76fa5fc9b1739b53d4d7"
+      sha256 "3ed10bff43257e013177a4aaa30b3d62dc02ec99bd1be74bac45c9d961356229"
     end
     on_arm do
       url "https://github.com/astrabyte-tech/context-zero-releases/releases/download/v#{version}/context-zero_#{version}_linux_arm64.tar.gz"
-      sha256 "611259b11b7ca95df55dd2ab6d90e4867e17e08ad9689719a34d7f06900a6462"
+      sha256 "6e24ee242c33706273c778de109c9fd72ef5479f925418c037db605ab697b884"
     end
   end
 
